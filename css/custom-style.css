@@ -1,0 +1,198 @@
+/*/////////////////////////////////////////////////////////////////////
+ // 
+ // Custom theme code styles
+ // Written by Themelize.me (http://themelize.me)
+ // 
+ // This is an empty starter template for overriding styles
+ // set by Bootstrap & the theme
+ // 
+ // ----------------------------------------------------
+ // 
+ // Remove unused code for better performances
+ // 
+ // ----------------------------------------------------
+ // 
+ // @see - Usefuls tools online for editing
+ // 1. http://charliepark.org/bootstrap_buttons/ - Button style generator
+ // 2. http://www.colorzilla.com/gradient-editor/ - CSS3 gradient maker
+ // 
+ // @note
+ // To ensure custom styles are picked up
+ // wrap definitions in body tag
+ // ie.
+ // body .navbar-inner {
+ //   background: #ff0000;
+ // }
+ // 
+ /////////////////////////////////////////////////////////////////////*/
+/*
+ * --------------------------------------------------
+ * 1. General Elements
+ *--------------------------------------------------
+ */
+#navigation {
+  /* 1. Navigation wrapper */
+}
+#highlighted {
+  /* 2. Highlighted (below header) wrapper */
+}
+#content {
+  /* 3. Content wrapper */
+}
+#content-below {
+  /* 4. Content Below wrapper */
+}
+#footer {
+  /* 5. Footer wrapper */
+}
+.page.page-header-old-full.header-old #highlighted img {
+	width: 100%;
+}
+.row .col-md-9.blog-roll.blog-list table tr {
+
+}
+table {
+	width: 100%;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 0px;
+
+}
+.table_pots th {
+	width: 100%;
+	padding-left: 20px;
+	background-color: #89C34B;
+	height: 25px;
+}
+
+
+
+table tr td button {
+	font-variant: small-caps;
+	margin-top: 15px;
+	margin-right: 18px;
+	color: #514F4F;
+	text-align: center;
+	margin-left: 30px;
+
+
+
+}
+#post_content {
+	text-align: justify;
+
+
+}
+
+
+
+table tr th {
+	height: 25px;
+	color: #FFFFFF;
+	background-color: #89C34B;
+	text-align: center;
+}
+.user {
+	padding-top: 10px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	border-top-left-radius: 0px;
+}
+textarea {
+	resize: none;
+}
+.user  {
+	width: 250px;
+	padding-top: 15px;
+	padding-right: 15px;
+	padding-bottom: 15px;
+	padding-left: 15px;
+}
+.title {
+
+}
+.container img {
+	border: 1px dotted #89C34B;
+	border-radius: 5px;
+
+}
+.profile_layout {
+	float: left;
+	border: 2px solid #000000;
+	height: 500px;
+	padding-top: 15px;
+	padding-right: 15px;
+	padding-bottom: 15px;
+	padding-left: 15px;
+	margin-left: 20px;
+	width: 50%;
+}
+.blog-post img {
+	float: left;
+	text-align: justify;
+	width: 400px;
+	margin-right: 26px;
+	margin-bottom: 5px;
+}
+.blog-post p   {
+	font-size: 18px;
+	width: auto;
+	text-align: justify;
+
+
+
+}
+th form .admin_sunmit {
+	color: #D6D6D6;
+	background-color: #D80B0F;
+	border: 1px solid #000000;
+	border-radius: 5px;
+	margin-right: 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+ * --------------------------------------------------
+ * 2. Colours
+ *-------------------------------------------------- 
+ */
+/*
+ * --------------------------------------------------
+ * 3. Responsiveness/media queries
+ *--------------------------------------------------
+ */
+/* Extra small devices (phones, less than 768px) */
+/* No media query since this is the default in Bootstrap */
+@media (min-width: 768px) {
+  /* Small devices (tablets, 768px and up) */
+}
+@media (min-width: 992px) {
+  /* Medium devices (desktops, 992px and up) */
+}
+@media (min-width: 1200px) {
+  /* Large devices (large desktops, 1200px and up) */
+}
+/*
+ * --------------------------------------------------
+ * 4. Misc
+ * Other stuff
+ *--------------------------------------------------
+ */

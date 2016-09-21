@@ -1,0 +1,43 @@
+<form action="" method="POST" class="form-login form-wrapper form-medium">
+      <h3 class="title-divider">
+        <span>Sign Up</span> 
+        <small>Already signed up? <a href="login.php">Login here</a>.</small>
+      </h3>
+ 
+      <h5>
+        Account Information
+      </h5>
+ <div class="form-group">
+        <label for="name" class="sr-only" >Enter you name</label>
+        <input type="tel" name="name" value="<?php echo escape(Input::get('name')); ?>" class="form-control" placeholder="Full name"id="name" required>
+   </div>
+ <div class="form-group">
+    <lable for="username" class="sr-only" >Username</lable>
+    <input type="text" name="users_username"  id="username" value="<?php echo escape(Input::get('username')); ?>" class="form-control" placeholder="Username" autocomplete="off" required>
+    </div>
+ <div class="form-group">
+        <label for="email1" class="sr-only" >Email</label>
+        <input type="email" name="email1" class="form-control"  required placeholder="Email"id="email1">
+   </div>
+ <div class="form-group">
+        <label for="email2" class="sr-only" >Repeat Email</label>
+        <input type="email" name="email2"  class="form-control" required placeholder="Repeat Email"id="email2">
+   </div>
+ <div class="form-group">
+        <label for="password" class="sr-only" >Choose password</label>
+        <input type="password" name="password" placeholder="Password" required class="form-control" id="password">
+   </div>
+ <div class="form-group">
+        <label for="password_again" class="sr-only" >Repeat password</label>
+        <input type="password" name="password_again" class="form-control" required placeholder="Repeat Password" id="password_again">
+   </div>
+
+    <div class="checkbox">
+        <label>
+          <input type="checkbox" required value="term">
+          I agree with the Terms and Conditions. 
+        </label>
+      </div>
+    <input type="hidden" name="token" value="<?php echo Token::generate();?>">
+    <input type="submit"  value="Sign up"  class="btn btn-primary">
+   </form>

@@ -1,0 +1,23 @@
+       <!-- Login form -->
+              <form action="login.php" method="POST" class="form-login form-wrapper form-narrow">
+               <h3 class="title-divider">
+                    <span>Login</span> 
+                    <small>Not signed up? <a href="sig">Sign up here</a>.</small>
+                  </h3>
+                            <div class="field">
+                                <label for="username" class="sr-only">Username</label>
+                                <input type="text" name="users_username" class="form-control" id="usersname" placeholder="Username" autocomplete="off" required>
+                            </div>
+                            <br>
+                            <div class="field">
+                                <label for="username" class="sr-only">Password</label>
+                                <input type="password" name="password" class="form-control"  id="password" placeholder="Password"autocomplete="off" required>
+                            </div>
+                            <div class="field">
+                                <lable for="remember">
+                                <input type="checkbox" name="remember" id="rember">Remember me 
+                                </label>
+                            </div>
+                            <input type="hidden" name="token" value="<?php echo Token::generate();?>">
+                            <input type="submit" class="btn btn-primary" value="Lon In">
+            </form>
